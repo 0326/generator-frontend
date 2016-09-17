@@ -1,13 +1,13 @@
-# generator-panda [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
+# generator-frontend [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
 > popular front end project scaffold
 
 ## Installation
 
-First, install [Yeoman](http://yeoman.io) and generator-panda using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
+First, install [Yeoman](http://yeoman.io) and generator-frontend using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
 
 ```bash
 npm install -g yo
-npm install -g generator-panda
+npm install -g generator-frontend
 ```
 
 Then generate your new project:
@@ -28,11 +28,11 @@ yo panda
 MIT © [0326]()
 
 
-[npm-image]: https://badge.fury.io/js/generator-panda.svg
-[npm-url]: https://npmjs.org/package/generator-panda
-[travis-image]: https://travis-ci.org/0326/generator-panda.svg?branch=master
-[travis-url]: https://travis-ci.org/0326/generator-panda
-[daviddm-image]: https://david-dm.org/0326/generator-panda.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/0326/generator-panda
-[coveralls-image]: https://coveralls.io/repos/0326/generator-panda/badge.svg
-[coveralls-url]: https://coveralls.io/r/0326/generator-panda
+[npm-image]: https://badge.fury.io/js/generator-frontend.svg
+[npm-url]: https://npmjs.org/package/generator-frontend
+[travis-image]: https://travis-ci.org/0326/generator-frontend.svg?branch=master
+[travis-url]: https://travis-ci.org/0326/generator-frontend
+[daviddm-image]: https://david-dm.org/0326/generator-frontend.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org/0326/generator-frontend
+[coveralls-image]: https://coveralls.io/repos/0326/generator-frontend/badge.svg
+[coveralls-url]: https://coveralls.io/r/0326/generator-frontend
