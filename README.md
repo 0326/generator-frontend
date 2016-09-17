@@ -1,5 +1,6 @@
-# generator-frontend [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
-> popular front end project scaffold
+# generator-frontend 
+[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
+> popular front end project scaffolds
 
 ## Installation
 
@@ -13,15 +14,31 @@ npm install -g generator-frontend
 Then generate your new project:
 
 ```bash
-yo panda
+yo frontend:demo
 ```
 
-## Getting To Know Yeoman
+## Generator List
+Generator frontend provides some scaffolds:
 
- * Yeoman has a heart of gold.
- * Yeoman is a person with feelings and opinions, but is very easy to work with.
- * Yeoman can be too opinionated at times but is easily convinced not to be.
- * Feel free to [learn more about Yeoman](http://yeoman.io/).
+#### app
+The default scaffold.
+```bash
+yo frontend
+```
+
+#### demo
+A very simple page scaffold, only add gulp && livereload to let you quickly get started to code.
+```bash
+yo frontend:demo
+npm install
+```
+Then, run `gulp` or `npm run dev` command to start server.
+
+#### standard-app
+A full scaffold for building a webapp.
+```javascript
+// TODO
+```
 
 ## License
 
