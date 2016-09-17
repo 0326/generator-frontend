@@ -1,19 +1,19 @@
 {
-  "name": "generator-frontend",
-  "version": "0.0.0",
+  "name": "generator-frontend-dog",
+  "version": "0.0.1",
   "description": "popular front end project scaffold",
-  "homepage": "",
+  "homepage": "https://github.com/0326/generator-frontend",
   "author": {
     "name": "0326",
     "email": "winniringy@gmail.com",
-    "url": ""
+    "url": "https://github.com/0326"
   },
   "files": [
     "generators/app",
-    "generators/simple-demo",
-    "generators/standard-demo"
+    "generators/demo",
+    "generators/standard-app"
   ],
-  "main": "generators/index.js",
+  "main": "index.js",
   "keywords": [
     "fontend",
     "javascript",

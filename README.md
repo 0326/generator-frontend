@@ -8,28 +8,28 @@ First, install [Yeoman](http://yeoman.io) and generator-frontend using [npm](htt
 
 ```bash
 npm install -g yo
-npm install -g generator-frontend
+npm install -g generator-frontend-dog
 ```
 
 Then generate your new project:
 
 ```bash
-yo frontend:demo
+yo frontend-dog:demo
 ```
 
 ## Generator List
-Generator frontend provides some scaffolds:
+Generator frontend-dog provides some scaffolds:
 
 #### app
 The default scaffold.
 ```bash
-yo frontend
+yo frontend-dog
 ```
 
 #### demo
 A very simple page scaffold, only add gulp && livereload to let you quickly get started to code.
 ```bash
-yo frontend:demo
+yo frontend-dog:demo
 npm install
 ```
 Then, run `gulp` or `npm run dev` command to start server.
