@@ -1,6 +1,17 @@
-# generator-frontend 
-[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
-> popular front end project scaffolds
+
+<p align="center">
+<img width="600" src="http://7xp4vm.com1.z0.glb.clouddn.com/generator-frontend-dog.png" alt="generator-frontend-dog">
+</p>
+<p align="center">
+<a href="https://npmjs.org/package/generator-frontend"><img src="https://badge.fury.io/js/generator-frontend.svg" alt="License"></a>
+<a href="https://travis-ci.org/0326/generator-frontend"><img src="https://travis-ci.org/0326/generator-frontend.svg?branch=master" alt="License"></a>
+<a href="https://david-dm.org/0326/generator-frontend"><img src="https://david-dm.org/0326/generator-frontend.svg?theme=shields.io" alt="License"></a>
+<a href="https://coveralls.io/r/0326/generator-frontend"><img src="https://coveralls.io/repos/0326/generator-frontend/badge.svg" alt="License"></a>
+<a href="https://www.npmjs.com/package/vue"><img src="https://img.shields.io/npm/l/vue.svg" alt="License"></a>
+</p>
+
+# generator-frontend-dog (under construction)
+> Frontend-dog provides many popular frontend scaffolds, you can custom your project with ES6, PostCSS, ESLint, React, Vue.js, AngularJS, Polymer, Gulp, Webpack...or just a simple lightly demo page :)
 
 ## Installation
 
@@ -18,7 +29,7 @@ yo frontend-dog:demo
 ```
 
 ## Generator List
-Generator frontend-dog provides some scaffolds:
+Generator frontend-dog provides some nice scaffolds:
 
 #### app
 The default scaffold.
@@ -42,14 +53,5 @@ A full scaffold for building a webapp.
 
 ## License
 
-MIT © [0326]()
+MIT © [0326](https://github.com/0326)
 
-
-[npm-image]: https://badge.fury.io/js/generator-frontend.svg
-[npm-url]: https://npmjs.org/package/generator-frontend
-[travis-image]: https://travis-ci.org/0326/generator-frontend.svg?branch=master
-[travis-url]: https://travis-ci.org/0326/generator-frontend
-[daviddm-image]: https://david-dm.org/0326/generator-frontend.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/0326/generator-frontend
-[coveralls-image]: https://coveralls.io/repos/0326/generator-frontend/badge.svg
-[coveralls-url]: https://coveralls.io/r/0326/generator-frontend
