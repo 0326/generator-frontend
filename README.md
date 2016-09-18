@@ -31,19 +31,21 @@ yo frontend-dog:demo
 ## Generator List
 Generator frontend-dog provides some nice scaffolds:
 
-#### app
-The default scaffold.
-```bash
-yo frontend-dog
-```
-
 #### demo
 A very simple page scaffold, only add gulp && livereload to let you quickly get started to code.
 ```bash
 yo frontend-dog:demo
 npm install
 ```
+
 Then, run `gulp` or `npm run dev` command to start server.
+
+#### app
+The default scaffold.
+```bash
+yo frontend-dog
+```
+
 
 #### standard-app
 A full scaffold for building a webapp.
