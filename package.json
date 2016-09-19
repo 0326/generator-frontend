@@ -1,6 +1,6 @@
 {
   "name": "generator-frontend-dog",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "popular front end project scaffold",
   "homepage": "https://github.com/0326/generator-frontend",
   "author": {
@@ -17,6 +17,7 @@
   "keywords": [
     "fontend",
     "javascript",
+    "webapp scaffold",
     "yeoman-generator"
   ],
   "dependencies": {

@@ -31,24 +31,50 @@ yo frontend-dog:demo
 ## Generator List
 Generator frontend-dog provides some nice scaffolds:
 
-#### demo
-A very simple page scaffold, only add gulp && livereload to let you quickly get started to code.
+### demo
+A very simple page scaffold, only add gulp && livereload to let you quickly get started to code. If you don't 
+wanna use the fucking Webpack, React or any other framework, you just wanna the pure JavaScript by hand, try it:
 ```bash
 yo frontend-dog:demo
-npm install
 ```
+It will generate files like this:
+<pre>
+├── gulpfile.js                 # only contain livereload config
+├── package.json
+└── src
+    ├── index.html              # the entry page
+    ├── css
+    │   └── index.css
+    └── js
+        └── index.js
+</pre>
 
-Then, run `gulp` or `npm run dev` command to start server.
+Then, run `npm install` by yourself, after that run `gulp` or `npm run dev` command to start server.
 
-#### app
-The default scaffold.
+### app
+This is the default scaffold. Comparing to the demo scaffold, this default scaffold only add the ES6 && PostCSS, 
+and choose BrowserSync to livereload, without any framework.
 ```bash
 yo frontend-dog
 ```
+The scaffold like this:
+<pre>
+├── gulpfile.js                 # livereload + ES6 + PostCSS
+├── package.json
+├── index.html                  # the entry page
+└── src
+    ├── index.html              
+    ├── css
+    │   └── index.css
+    └── js
+        └── index.js            # the entry js
+        └── config.js
+</pre>
 
 
-#### standard-app
-A full scaffold for building a webapp.
+
+### standard-app
+A full scaffold for building a webapp with Vue.js, Polymer, AngularJS or any other popular framework.
 ```javascript
 // TODO
 ```
